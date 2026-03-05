@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>BDT20 – বাংলাদেশ ক্রিকেট ও ফুটবল বেটিং | Oxy Club</title>
+
+<meta name="description" content="BDT20 বাংলাদেশের জনপ্রিয় ক্রিকেট ও ফুটবল বেটিং প্ল্যাটফর্ম। Oxy Club এর মাধ্যমে স্পন্সর কোড Oxy11 ব্যবহার করে সহজে একাউন্ট খুলুন এবং নিরাপদে বেট করুন। যোগাযোগ: Imo 01826444505">
+<meta name="keywords" content="BDT20, bdt20.net, বাংলাদেশ বেটিং, ক্রিকেট বেটিং, ফুটবল বেটিং, Oxy Club">
+
+<meta property="og:title" content="BDT20 – বাংলাদেশ ক্রিকেট ও ফুটবল বেটিং">
+<meta property="og:description" content="Oxy Club এর মাধ্যমে স্পন্সর কোড Oxy11 ব্যবহার করে একাউন্ট খুলুন">
+<meta property="og:image" content="logo.png">
+<meta property="og:type" content="website">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0a0a0a;
+  color:white;
+  text-align:center;
+}
+
+/* HEADER */
+header{
+  background:#111;
+  padding:20px;
+}
+
+header img.logo{
+  width:150px;
+}
+
+/* SLIDER */
+.slider{
+  width:100%;
+  height:250px;
+  overflow:hidden;
+  position:relative;
+}
+
+.slide{
+  position:absolute;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:1s;
+}
+
+.slide img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.active{
+  opacity:1;
+}
+
+/* SECTION */
+.section{
+  padding:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:15px 35px;
+  background:#ff2e63;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-size:18px;
+  margin-top:15px;
+}
+
+.card{
+  background:#161616;
+  padding:20px;
+  margin:10px 0;
+  border-radius:10px;
+  font-size:18px;
+}
+
+.contact{
+  background:#111;
+  padding:30px;
+}
+
+footer{
+  background:#000;
+  padding:15px;
+  font-size:14px;
+  color:#aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <img src="logo.png" alt="BDT20 Logo" class="logo">
+  <p>Powered by <b>Oxy Club ✅</b></p>
+</header>
+
+<!-- SLIDER -->
+<div class="slider">
+  <div class="slide active">
+    <img src="screen1.jpg" alt="Cricket Betting Screenshot">
+  </div>
+  <div class="slide">
+    <img src="screen2.jpg" alt="Football Betting Screenshot">
+  </div>
+  <div class="slide">
+    <img src="screen3.jpg" alt="Live Match Screenshot">
+  </div>
+</div>
+
+<!-- MAIN SECTION -->
+<div class="section">
+  <h2>বাংলাদেশ ক্রিকেট ও ফুটবল বেটিং</h2>
+  <p>Powered by Oxy Club ✅</p>
+  <p>Sponsor Code: <b>Oxy11</b></p>
+  <a class="btn" href="https://bdt20.net" target="_blank">JOIN NOW</a>
+</div>
+
+<!-- SPORTS SECTION -->
+<div class="section">
+  <h2>আমাদের জনপ্রিয় স্পোর্টস</h2>
+  <div class="card">🏏 ক্রিকেট বেটিং</div>
+  <div class="card">⚽ ফুটবল বেটিং</div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div class="contact">
+  <h2>যোগাযোগ করুন</h2>
+  <p>Imo / WhatsApp</p>
+  <h3>📞 01826444505</h3>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 BDT20.net | Sponsor Oxy Club
+</footer>
+
+<!-- SLIDER SCRIPT -->
+<script>
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+function showSlide(){
+  slides.forEach((s)=>s.classList.remove("active"));
+  index++;
+  if(index==slides.length) index=0;
+  slides[index].classList.add("active");
+}
+setInterval(showSlide,3000);
+</script>
+
+</body>
+</html>
